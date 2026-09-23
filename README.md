@@ -1,0 +1,57 @@
+# pedoman
+
+A Claude skill that checks a document against the writing guideline it will be
+graded against, and says exactly which clause it breaks.
+
+Students rarely fail a tugas akhir on ideas. They get sent back because the cover is
+the wrong colour, the left margin is 3 cm instead of 4, a bullet appears where the
+pedoman forbids bullets, or a required subsection is missing by name. That is a
+solved problem and it should not cost anyone a week.
+
+## What it does
+
+- **Audit** — you have a draft; it reports violations ranked by severity, each with
+  its clause number, and never rewrites your prose.
+- **Setup** — you are about to start typing; it gives the typography block and the
+  section skeleton.
+- **Lookup** — one question, one answer, one clause.
+
+It also checks eligibility first, because formatting a document you cannot yet
+submit is wasted work.
+
+## Scope, in order of confidence
+
+1. **Universitas Atma Jaya Makassar, Fakultas Teknologi Informasi** — encoded clause
+   by clause from the primary guidelines for KKP/magang, usulan tugas akhir,
+   Ringkasan Kapasitas Diri, skripsi, and the journal manuscript.
+2. Other Indonesian universities — the axes on which campuses actually differ, and
+   what to ask. Always request the local pedoman.
+3. Worldwide — APA, MLA, Chicago, IEEE, Vancouver, Harvard, and thesis norms.
+4. Any language — formal register, writing direction, name and transliteration rules.
+
+## Sources
+
+`references/uajm-fti.md` was written from two primary documents, read in full:
+
+- *Pedoman Kuliah Kerja Profesi*, Program Studi Informatika, FTI UAJM,
+  18 January 2015.
+- *Pedoman Penulisan Skripsi*, Program Studi Informatika, FTI UAJM,
+  1 April 2015, revised 10 June 2015.
+
+**The PDFs are not in this repository.** They belong to the university. Every rule
+here carries its clause number so it can be checked against the original, which is
+what citing a guideline means. Put your own copies in `sources/` if you want them
+locally; that directory is ignored by git.
+
+## Hard rules the skill follows
+
+- Your own pedoman outranks everything in these files.
+- Guidelines drift. The edition being applied is stated once per conversation.
+- Never invent a rule. If the guideline is silent, it says so, then marks any
+  suggestion as a suggestion.
+- Never promise a plagiarism or AI-detector score.
+
+## Related
+
+- [`lugas`](https://github.com/bryankwandou/lugas) — prose quality. This skill does
+  format only; the two do not overlap.
