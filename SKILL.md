@@ -129,4 +129,4 @@ work. Cite clause numbers throughout so the next reader can verify.
 | `references/global.md` | Outside Indonesia; any citation-style question |
 | `references/languages.md` | Document in a language other than Indonesian or English |
 | `references/audit-template.md` | Audit mode — output shape and severity ranking |
-| `sources/` | The primary UAJM PDFs `uajm-fti.md` was encoded from — open only to settle a dispute about a clause |
+| `sources/` | The primary UAJM PDFs `uajm-fti.md` was encoded from — local only, not in the public repo (the university owns them); if absent, ask the user for the PDF to settle a disputed clause |
