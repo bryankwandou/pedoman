@@ -129,4 +129,6 @@ work. Cite clause numbers throughout so the next reader can verify.
 | `references/global.md` | Outside Indonesia; any citation-style question |
 | `references/languages.md` | Document in a language other than Indonesian or English |
 | `references/audit-template.md` | Audit mode — output shape and severity ranking |
+| `examples/audit-kkp-contoh.md` | A worked audit of a fictional KKP draft — reference for audit-mode output |
+| `tests/cases.md` | Ten test questions with expected answers and clauses — run after editing any reference |
 | `sources/` | The primary UAJM PDFs `uajm-fti.md` was encoded from — local only, not in the public repo (the university owns them); if absent, ask the user for the PDF to settle a disputed clause |

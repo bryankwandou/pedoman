@@ -465,7 +465,10 @@ persetujuan pembimbing I, II, dan ketua prodi.
 | d. **Kapasitas diri** | pemahaman, pengetahuan, dan pengalaman mahasiswa sebagai landasan keterlibatan yang menjadi prasyarat | **tidak ada padanannya di proposal** |
 | e. Jadwal pelaksanaan | tahap, rincian, waktu | sama |
 
-Tidak ada hipotesa dan tidak ada konsideran percobaan di jalur ini.
+Tidak ada hipotesa dan tidak ada konsideran percobaan di antara butir a–e jalur ini.
+Kejanggalan yang disebut bila ditanya: kalimat pembuka TA 3.2.2 masih menyebut
+"konsideran percobaan", dan TA 3.2.1c menyebut "halaman judul usulan tugas akhir
+(proposal)" — sisa salin dari §C. Butir bernomor a–e yang dipakai.
 
 Prosedur (TA 1.4.1): ajukan ringkasan kapasitas diri (syarat 115 sks + sudah/sedang
 mengambil Tugas Mandiri dan Seminar) → ketua tim peneliti mengevaluasi dan

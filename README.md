@@ -43,6 +43,15 @@ here carries its clause number so it can be checked against the original, which 
 what citing a guideline means. Put your own copies in `sources/` if you want them
 locally; that directory is ignored by git.
 
+## Examples and tests
+
+- [`examples/audit-kkp-contoh.md`](examples/audit-kkp-contoh.md) — a fictional KKP
+  draft with deliberate violations, and the full audit of it, clause by clause.
+- [`tests/cases.md`](tests/cases.md) — ten questions with expected answers and
+  clause numbers: lookups, eligibility gates, the proposal vs Ringkasan Kapasitas
+  Diri trap, an unknown campus, a foreign thesis, an Arabic document, and a
+  plagiarism-score request the skill must refuse.
+
 ## Hard rules the skill follows
 
 - Your own pedoman outranks everything in these files.
