@@ -24,10 +24,16 @@ submit is wasted work.
 1. **Universitas Atma Jaya Makassar, Fakultas Teknologi Informasi** — encoded clause
    by clause from the primary guidelines for KKP/magang, usulan tugas akhir,
    Ringkasan Kapasitas Diri, skripsi, and the journal manuscript.
-2. Other Indonesian universities — the axes on which campuses actually differ, and
-   what to ask. Always request the local pedoman.
-3. Worldwide — APA, MLA, Chicago, IEEE, Vancouver, Harvard, and thesis norms.
-4. Any language — formal register, writing direction, name and transliteration rules.
+2. **Encoded from primary guidelines (status 25 September 2026):** UAJY Informatika,
+   Atma Jaya Jakarta FEB, ITB, UI, IPB, UGM (Fak. Pertanian pascasarjana), UB
+   (Pascasarjana Multidisiplin), ITS, Unair, Unhas (pascasarjana), UNS, Unpad (tesis),
+   Undip (three master's programmes) — 14 Indonesian institutions including UAJM, most
+   at one faculty or level only, as each file states. Five foreign institutions in
+   `references/global-institutions.md`.
+3. **Every other university** — not encoded. The skill gives the common axes, asks for
+   the local pedoman, and follows it. It does not claim coverage it does not have.
+4. Citation styles worldwide — APA, MLA, Chicago, IEEE, Vancouver, Harvard, and thesis norms.
+5. Any language — formal register, writing direction, name and transliteration rules.
 
 ## Sources
 
