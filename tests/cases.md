@@ -1,6 +1,6 @@
 # Kasus uji
 
-Pertanyaan dengan jawaban yang diharapkan (1–10 UAJM dan umum; 11–29 kampus dan institusi tambahan). Setiap jawaban sudah dicocokkan
+Pertanyaan dengan jawaban yang diharapkan (1–10 UAJM dan umum; 11–32 kampus dan institusi tambahan). Setiap jawaban sudah dicocokkan
 dengan `references/` dan, untuk UAJM, dengan teks PDF aslinya. Jawaban skill lulus
 bila isi, klausul, dan perilakunya sama; susunan kalimatnya bebas.
 
@@ -46,4 +46,7 @@ aslinya. Sebut edisi pedoman sekali per percakapan.
 | 26 | dkk./et al. bersyarat | "Tesis Unair pakai dkk. atau et al.?" | Keduanya, bersyarat: dkk., tetapi et al. bila bukunya berbahasa asing; di daftar pustaka semua penulis tanpa dkk./et al. Kontras: IPB selalu et al.; ITB selalu dkk. | UA-T 2.4 · PPKI 7.1.3 · T VI.1 |
 | 27 | Margin & cetak | "Margin tesis Unair?" | Kiri 4, atas 4, kanan 3, bawah 3 cm; bab baru 5 cm dari atas; spasi 2; **tidak boleh bolak-balik**; sampul linen kuning (tesis) / biru (disertasi). Edisi 2017, dibaca dari arsip URL resmi. | UA-T 2.1, 2.3a · UA-D 3.1 · `unair-sps.md` §1 |
 | 28 | Delegasi ke dokumen lain | "Margin tesis Unpad?" | Pedoman SPs Unpad 2022 **tidak mengatur** margin/kertas/sitasi — ia merujuk Panduan Umum Unpad 2014, yang belum dikodekan → minta file itu; jangan menebak. Yang ada: isi bab (mis. kajian pustaka ≥ 30 literatur). | UP Pengantar hlm. 3, II.1b · `unpad-sps.md` |
-| 29 | Tidak ditemukan | "Pedoman tesis Undip?" | Belum dikodekan: tidak ditemukan pedoman penulisan tingkat Sekolah Pascasarjana Undip; yang ada pedoman per prodi (mis. Magister Sistem Informasi, Magister Matematika). Minta pedoman prodinya. | SKILL.md Step 0 |
+| 29 | Cakupan prodi | "Pedoman tesis Undip?" | Tanyakan prodinya. Tidak ada pedoman tingkat Sekolah Pascasarjana Undip; yang dikodekan hanya Magister Sistem Informasi (2022), Magister Agribisnis (2021), dan Magister Matematika (2016). Prodi lain → minta pedomannya; jangan pukul rata. | SKILL.md Step 0 · `undip-*.md` |
+| 30 | Undip MSI | "Margin dan sitasi tesis Magister Sistem Informasi Undip?" | Kiri 4, atas 4, kanan 3, bawah 3 cm; A4 70 g; TNR 12 spasi 1,5; sitasi (nama, tahun) dengan **dkk.** — et al. tidak disarankan; minimal 10 jurnal internasional; website tidak dianjurkan; abstrak 150–200 kata. | MSI 2.2, 2.4 · `undip-msi.md` |
+| 31 | Undip Agribisnis | "Spasi tesis Magister Agribisnis Undip?" | 2 spasi (1 spasi untuk abstrak, kutipan, judul tabel/gambar, daftar pustaka); margin 4-3-4-3 (atas-bawah-kiri-kanan); bullet tidak dibenarkan; halaman judul bab tidak bernomor. | MAG 3.2(3), 3.2(4), 3.2(8), 3.3(1) · `undip-magri.md` |
+| 32 | Kontradiksi internal | "Warna sampul tesis Magister Matematika Undip?" | Pedomannya bertentangan: III.5 (teks sisa dari pedoman ITB) hard cover biru dongker tinta emas; IV.1 kuning tua soft cover tinta hitam. Pakai IV.1 (spesifik Undip), sebut konfliknya, sarankan cek ke prodi. | MM III.5, IV.1 · `undip-mmath.md` |

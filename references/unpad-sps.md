@@ -11,7 +11,11 @@ SPs Unpad, dan **hanya menegaskan poin penting isi tiap bab**. Pengantar (hlm. 3
 menyatakan: untuk **desain sampul, batas kertas, ukuran kertas, margin, sitasi**, dan
 sebagainya tetap merujuk *Panduan Umum Penyusunan dan Penulisan Tesis dan Disertasi,
 Penulisan Artikel Ilmiah, Penyusunan Dalil* terbitan Unpad **tahun 2014** — dokumen itu
-**tidak** berhasil ditemukan/dibuka. Jadi semua aturan tipografi Unpad →
+**belum bisa dibuka**. Dokumen itu ada di URL resmi
+`https://pasca.unpad.ac.id/wp-content/uploads/2021/12/Pedoman-Tesis-Disertasi_Artikel-Ilmiah-dan-Dalil-2014.pdf`
+dan SPs juga memasang `.../2026/03/PEDOMAN-TESIS-UNPAD-2026.pdf` (Panduan Umum
+Penyusunan dan Penulisan Tesis, 2026), tetapi keduanya mengembalikan **HTTP 403**
+(Cloudflare), tidak ada snapshot Wayback, dan *Save Page Now* gagal (HTTP 500). Jadi semua aturan tipografi Unpad →
 `[CEK: Panduan Umum Unpad 2014]`; jangan diisi dari kampus lain.
 
 Klausul: nomor subbab asli (`UP II.1`), halaman tercetak "Hal. n".

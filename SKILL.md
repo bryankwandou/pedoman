@@ -68,12 +68,15 @@ separate pass.
 | Unhas, S2/S3 | `references/ipb.md` | IPB PPKI edisi 4 — laporan akhir, skripsi, tesis, disertasi (2019; read from Wayback copy of official URL) |
 | `references/unair-sps.md` | Unair Sekolah Pascasarjana — tesis and disertasi (2017; Wayback copy of official URL) |
 | `references/unpad-sps.md` | Unpad Sekolah Pascasarjana — chapter content only (2022) |
+| `references/undip-msi.md` | Undip Magister Sistem Informasi (SPs) — programme only (2022, edisi 9) |
+| `references/undip-magri.md` | Undip Magister Agribisnis (FPP) — programme only (2021) |
+| `references/undip-mmath.md` | Undip Magister Matematika (FSM) — programme only; adapted from ITB 2016 |
 | `references/unhas-sps.md` |
 | UNS, S2 (2016 edition) | `references/uns-pps.md` |
 | IPB, any level (PPKI edisi 4, 2019) | `references/ipb.md` |
 | Unair, S2/S3 (SPs 2017) | `references/unair-sps.md` |
 | Unpad, S2/S3 — chapter content only | `references/unpad-sps.md`; typography is in Unpad's 2014 Panduan Umum (not encoded) → ask for it |
-| Undip | not encoded (no school-wide pascasarjana writing guide found; only single-programme guides) → `indonesia-general.md`, ask for the prodi guide |
+| Undip — Magister Sistem Informasi / Magister Agribisnis / Magister Matematika only | `references/undip-msi.md` / `undip-magri.md` / `undip-mmath.md` (no school-wide Undip guide exists; any other Undip prodi → ask for its guide) |
 | Indonesian campus, nothing encoded | `references/indonesia-general.md`, and ask once for the pedoman. |
 | MIT, University of York, ANU, Universiti Malaya (Fac. of Science), UTokyo GSAS PEAK/GPEAK | `references/global-institutions.md` |
 | Outside Indonesia, other institution | `references/global.md` |
