@@ -1,6 +1,6 @@
 # Kasus uji
 
-Pertanyaan dengan jawaban yang diharapkan (1–10 UAJM dan umum; 11–23 kampus dan institusi tambahan). Setiap jawaban sudah dicocokkan
+Pertanyaan dengan jawaban yang diharapkan (1–10 UAJM dan umum; 11–29 kampus dan institusi tambahan). Setiap jawaban sudah dicocokkan
 dengan `references/` dan, untuk UAJM, dengan teks PDF aslinya. Jawaban skill lulus
 bila isi, klausul, dan perilakunya sama; susunan kalimatnya bebas.
 
@@ -40,4 +40,10 @@ aslinya. Sebut edisi pedoman sekali per percakapan.
 | 20 | Kertas bukan A4 | "Kertas tesis UNS A4 ya?" | Bukan: pedoman edisi 2016 menulis HVS 70 gram **kuarto**; margin 3-3-3-3; maks 200 halaman di luar lampiran. Sebut edisi 2016 dan sarankan cek edisi terbaru. | UNS Bagian-6 Pengetikan 8, 10, 11 · `uns-pps.md` §1 |
 | 21 | Luar negeri — diam | "MIT thesis margins?" | MIT's specifications state no margin figures (only "the specified margins" under *Notes*); say so and do not guess. What is stated: title page = page 1, one continuous pagination, abstract ≤ ~500 words single-spaced, PDF/A-1 submission. | `global-institutions.md` MIT |
 | 22 | Luar negeri — angka | "ANU thesis margins?" | Digital: 2.5 cm all four sides. Printed on request: single-sided left 4 cm, others 2 cm; double-sided odd left 4 / even right 4, others 2 cm. Text ≥ 11 pt, footnotes ≥ 9 pt; double or 1.5 spacing; abstract 250–500 words. | ANUP_012815, *Thesis in Standard Format*, *Format – Content* |
-| 23 | Kampus belum dikodekan | "Pedoman tesis IPB margin berapa?" | IPB belum dikodekan (PDF resmi tidak bisa dibuka saat pengodean). Pakai `indonesia-general.md`, sebut angka umum sebagai praktik lazim, bukan aturan; minta file PPKI IPB. | SKILL.md Step 0 · aturan keras 1, 3 |
+| 23 | Kampus belum dikodekan | "Pedoman skripsi Universitas Y margin berapa?" (kampus tanpa file) | Kampus itu belum dikodekan. Pakai `indonesia-general.md`, sebut angka umum sebagai praktik lazim, bukan aturan; minta file pedomannya. | SKILL.md Step 0 · aturan keras 1, 3 |
+| 24 | Spasi tak lazim | "Skripsi IPB spasinya 1,5 kan?" | Bukan: PPKI IPB edisi 4 menetapkan **1 spasi**, TNR 12 (judul bab 14), margin kiri 4 / lainnya 3 cm, cetak bolak-balik (kecuali lembar pengesahan), nomor halaman pojok atas mirror. Draf dua spasi hanya atas persetujuan pembimbing. | PPKI Lampiran 16 Pengetikan 1–5 · Pengantar hlm. xii · `ipb.md` §1 |
+| 25 | Batas panjang | "Tesis IPB maksimal berapa?" | 20.000–30.000 kata **termasuk lampiran** (skripsi 5.000–20.000; disertasi pola rangkaian ≥ 3 artikel). Sebut bahwa judul Lampiran 16 menulis "halaman" padahal isinya kata. | PPKI Lampiran 16 Jumlah Maksimum Kata · `ipb.md` §5 |
+| 26 | dkk./et al. bersyarat | "Tesis Unair pakai dkk. atau et al.?" | Keduanya, bersyarat: dkk., tetapi et al. bila bukunya berbahasa asing; di daftar pustaka semua penulis tanpa dkk./et al. Kontras: IPB selalu et al.; ITB selalu dkk. | UA-T 2.4 · PPKI 7.1.3 · T VI.1 |
+| 27 | Margin & cetak | "Margin tesis Unair?" | Kiri 4, atas 4, kanan 3, bawah 3 cm; bab baru 5 cm dari atas; spasi 2; **tidak boleh bolak-balik**; sampul linen kuning (tesis) / biru (disertasi). Edisi 2017, dibaca dari arsip URL resmi. | UA-T 2.1, 2.3a · UA-D 3.1 · `unair-sps.md` §1 |
+| 28 | Delegasi ke dokumen lain | "Margin tesis Unpad?" | Pedoman SPs Unpad 2022 **tidak mengatur** margin/kertas/sitasi — ia merujuk Panduan Umum Unpad 2014, yang belum dikodekan → minta file itu; jangan menebak. Yang ada: isi bab (mis. kajian pustaka ≥ 30 literatur). | UP Pengantar hlm. 3, II.1b · `unpad-sps.md` |
+| 29 | Tidak ditemukan | "Pedoman tesis Undip?" | Belum dikodekan: tidak ditemukan pedoman penulisan tingkat Sekolah Pascasarjana Undip; yang ada pedoman per prodi (mis. Magister Sistem Informasi, Magister Matematika). Minta pedoman prodinya. | SKILL.md Step 0 |

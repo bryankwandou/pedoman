@@ -65,9 +65,15 @@ separate pass.
 | UGM, **Fakultas Pertanian** pascasarjana only | `references/ugm-faperta.md` (other UGM faculties: not encoded) |
 | UB, **Pascasarjana Multidisiplin** only | `references/ub-pps.md` |
 | ITS, S2 (2014 edition) | `references/its-pps.md` — ask for the department's current guide |
-| Unhas, S2/S3 | `references/unhas-sps.md` |
+| Unhas, S2/S3 | `references/ipb.md` | IPB PPKI edisi 4 — laporan akhir, skripsi, tesis, disertasi (2019; read from Wayback copy of official URL) |
+| `references/unair-sps.md` | Unair Sekolah Pascasarjana — tesis and disertasi (2017; Wayback copy of official URL) |
+| `references/unpad-sps.md` | Unpad Sekolah Pascasarjana — chapter content only (2022) |
+| `references/unhas-sps.md` |
 | UNS, S2 (2016 edition) | `references/uns-pps.md` |
-| IPB, Unair, Undip, Unpad | not encoded (primary PDF could not be opened) → `indonesia-general.md`, ask for the file |
+| IPB, any level (PPKI edisi 4, 2019) | `references/ipb.md` |
+| Unair, S2/S3 (SPs 2017) | `references/unair-sps.md` |
+| Unpad, S2/S3 — chapter content only | `references/unpad-sps.md`; typography is in Unpad's 2014 Panduan Umum (not encoded) → ask for it |
+| Undip | not encoded (no school-wide pascasarjana writing guide found; only single-programme guides) → `indonesia-general.md`, ask for the prodi guide |
 | Indonesian campus, nothing encoded | `references/indonesia-general.md`, and ask once for the pedoman. |
 | MIT, University of York, ANU, Universiti Malaya (Fac. of Science), UTokyo GSAS PEAK/GPEAK | `references/global-institutions.md` |
 | Outside Indonesia, other institution | `references/global.md` |
@@ -118,7 +124,7 @@ guideline does not cover. Then stop.
 ## Scope, in order of confidence
 
 1. **UAJM FTI** — encoded clause by clause from the primary PDFs. High confidence.
-2. **Seven more Indonesian campuses** — ITB, UI, UGM Faperta, UB PPS, ITS, Unhas, UNS,
+2. **Ten more Indonesian campuses** — ITB, UI, IPB, UGM Faperta, UB PPS, ITS, Unair, Unhas, UNS, Unpad (content only),
    each encoded from its own primary PDF with source table and clause numbers. High
    confidence for the edition stated; editions differ in age (2014–2023), so say which.
 3. **Indonesian universities generally** — shared conventions, the axes on which
