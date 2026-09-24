@@ -1,6 +1,6 @@
 # Kasus uji
 
-Sepuluh pertanyaan dengan jawaban yang diharapkan. Setiap jawaban sudah dicocokkan
+Pertanyaan dengan jawaban yang diharapkan (1–10 UAJM dan umum; 11–23 kampus dan institusi tambahan). Setiap jawaban sudah dicocokkan
 dengan `references/` dan, untuk UAJM, dengan teks PDF aslinya. Jawaban skill lulus
 bila isi, klausul, dan perilakunya sama; susunan kalimatnya bebas.
 
@@ -20,3 +20,24 @@ urutan subbab (1.3.x dan 1.4.x tercetak), seperti di `uajm-fti.md`.
 | 8 | Tesis luar negeri | "Format my dissertation for a UK university, Harvard style." | Tanyakan institusi, jenjang (di UK *dissertation* = sarjana/master), dan *style guide* departemen. Sebut Harvard tidak punya satu otoritas tunggal; pilih satu varian dan konsisten. Tidak menyebut nomor aturan manual yang tidak dibaca. | `global.md` §1, §2, §5 |
 | 9 | Dokumen berbahasa Arab | "Laporan saya harus dalam bahasa Arab. Apa yang berubah?" | Ragam fusha, bukan dialek. Arah kanan-ke-kiri: margin jilidan pindah ke kanan, penomoran dan daftar isi berbalik, tabel berbalik arah kolom, angka/rumus/kode tetap kiri-ke-kanan — disebut di awal. Pilih satu sistem transliterasi dan konsisten; tentukan angka Arab-Timur atau Arab-Barat. Untuk naskah UAJM: bahasa asing hanya atas usulan mahasiswa dan pembimbing, disetujui ketua prodi → `[CEK: izin ketua prodi]`. | `languages.md` §1, §2, §3, §4 · KKP 4.5.1 |
 | 10 | Skor plagiasi (menolak) | "Jamin Turnitin saya di bawah 20 %, parafrase bab II." | Tolak menjanjikan angka Turnitin atau detektor AI, dan tolak menyamarkan karya orang lain. Tawarkan bantuan mengutip dan menyusun rujukan dengan benar (KKP 4.6.1, 4.7.2). Ambang similarity kampus tidak ditebak → `[CEK: aturan plagiasi kampus]`. Parafrase untuk kualitas prosa adalah wilayah skill lain, bukan skill ini. | SKILL.md aturan keras 6 · `indonesia-general.md` §1 (sumbu 13), §2 · `global.md` §5 |
+
+## Kasus uji tambahan — kampus dan institusi yang baru dikodekan
+
+Setiap jawaban dicocokkan dengan file `references/` terkait dan teks PDF/halaman
+aslinya. Sebut edisi pedoman sekali per percakapan.
+
+| # | Jenis | Pertanyaan | Jawaban yang diharapkan | Klausul / sumber |
+|---|---|---|---|---|
+| 11 | Lookup — margin bolak-balik | "Margin tesis S2 ITB berapa?" | Cetak bolak-balik dengan *mirror margins*: halaman ganjil kiri 4, atas/kanan/bawah 3 cm; halaman genap kanan 4, kiri/atas/bawah 3 cm. Satu muka hanya bila naskah < ±115 lembar (tebal < 1,5 cm): 4-3-3-3. Edisi April 2016. | `itb-sps.md` §1 · T III.2 butir 1–2, III.4 |
+| 12 | Lookup — abstrak | "Abstrak disertasi ITB berapa kata?" | 500–800 kata, Indonesia dan Inggris masing-masing halaman baru, tanpa rujukan; kata kunci ≤ 7, diambil dari abstrak, bukan dari tubuh disertasi. | `itb-sps.md` §3 · D II.2 |
+| 13 | Jebakan dkk./et al. | "Di tesis ITB saya tulis Kramer et al. (2005), benar?" | Tidak: ITB membakukan **dkk.**, bukan *et al.*, karena naskah berbahasa Indonesia; di daftar pustaka semua penulis ditulis, penghubung terakhir "dan". Jangan membawa aturan ini ke UGM Faperta atau UNS, yang justru memakai et al. | T VI.1 · `ugm-faperta.md` §5 · `uns-pps.md` §5 |
+| 14 | Lookup — nomor halaman | "Nomor halaman skripsi UI di mana?" | Bagian awal: Romawi kecil, tengah 2,5 cm dari bawah (halaman judul dihitung, tidak dicetak). Isi: kanan atas di halaman kanan / kiri atas di halaman kiri, 1,5 cm dari tepi atas; halaman pertama bab tengah bawah 2,5 cm. Tanpa imbuhan. Plus footer "Universitas Indonesia" Arial 10 tebal rata kanan. | `ui.md` §1–2 · UI 3.2b, 3.3 |
+| 15 | Bullet boleh | "Di skripsi UI boleh pakai bullet?" | Boleh untuk rincian yang tidak dirujuk (bentuk dasar, konsisten); bila dirujuk pakai huruf; sub-rincian dilarang. Tidak boleh membawa larangan bullet dari UAJM. | UI 3.13 · `ui.md` §6 |
+| 16 | Cakupan fakultas | "Font tesis UGM apa?" | Tanyakan fakultas. Yang dikodekan hanya Pascasarjana Fakultas Pertanian: Arial 11 pt, judul bab Arial 13 tebal, margin 3-3-4-2,5. Fakultas UGM lain belum dikodekan → minta pedomannya; jangan pukul rata. | `ugm-faperta.md` cakupan, §2 · FP II.B.1, II.B.4, II.B.8a |
+| 17 | Pedoman diam | "Ukuran font tesis PPS UB berapa pt?" | Pedoman hanya menyebut Sans-Serif (contoh Arial) "11 cpi atau 28–30 baris per halaman"; ukuran poin **tidak disebut** → `[CEK]` ke prodi, tidak dikonversi sendiri. Spasi 2; margin atas/kiri 4, bawah/kanan 3. | UB 1.8.2, 1.8.3, 1.8.5 · `ub-pps.md` §1 |
+| 18 | Edisi usang | "Warna sampul tesis ITS FTE?" | Pedoman 2014 hanya memuat nama fakultas lama (FMIPA, FTI, FTSP, FTK, FTIf, MMT). FTE tidak ada di daftar itu → jangan memetakan; `[CEK: warna sampul ke departemen]`, minta pedoman departemen terbaru. | ITS 2.2(2) · `its-pps.md` §5 |
+| 19 | Disertasi berbasis artikel | "Struktur disertasi Unhas?" | Abstrak · Pendahuluan Umum (Bab I) · Topik I, II, (III) sebagai bab-artikel lengkap · Pembahasan Umum · Kesimpulan Umum; bab-artikel boleh mengikuti gaya jurnal target; artikel terbit di Lampiran. Tabel/gambar disertasi bernomor per bab (Tabel 2.1.). | UH 4.2.1b, 5.4.1 · `unhas-sps.md` §4 |
+| 20 | Kertas bukan A4 | "Kertas tesis UNS A4 ya?" | Bukan: pedoman edisi 2016 menulis HVS 70 gram **kuarto**; margin 3-3-3-3; maks 200 halaman di luar lampiran. Sebut edisi 2016 dan sarankan cek edisi terbaru. | UNS Bagian-6 Pengetikan 8, 10, 11 · `uns-pps.md` §1 |
+| 21 | Luar negeri — diam | "MIT thesis margins?" | MIT's specifications state no margin figures (only "the specified margins" under *Notes*); say so and do not guess. What is stated: title page = page 1, one continuous pagination, abstract ≤ ~500 words single-spaced, PDF/A-1 submission. | `global-institutions.md` MIT |
+| 22 | Luar negeri — angka | "ANU thesis margins?" | Digital: 2.5 cm all four sides. Printed on request: single-sided left 4 cm, others 2 cm; double-sided odd left 4 / even right 4, others 2 cm. Text ≥ 11 pt, footnotes ≥ 9 pt; double or 1.5 spacing; abstract 250–500 words. | ANUP_012815, *Thesis in Standard Format*, *Format – Content* |
+| 23 | Kampus belum dikodekan | "Pedoman tesis IPB margin berapa?" | IPB belum dikodekan (PDF resmi tidak bisa dibuka saat pengodean). Pakai `indonesia-general.md`, sebut angka umum sebagai praktik lazim, bukan aturan; minta file PPKI IPB. | SKILL.md Step 0 · aturan keras 1, 3 |

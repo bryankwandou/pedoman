@@ -60,8 +60,17 @@ separate pass.
 |---|---|
 | User attached or named a pedoman | Read it. It governs. Skip to Step 1. |
 | Institution + faculty + program known, file encoded | Load that `references/` file. |
+| ITB, S2/S3 (SPs ITB) | `references/itb-sps.md` |
+| UI, any level (skripsi/tesis/disertasi) | `references/ui.md` |
+| UGM, **Fakultas Pertanian** pascasarjana only | `references/ugm-faperta.md` (other UGM faculties: not encoded) |
+| UB, **Pascasarjana Multidisiplin** only | `references/ub-pps.md` |
+| ITS, S2 (2014 edition) | `references/its-pps.md` — ask for the department's current guide |
+| Unhas, S2/S3 | `references/unhas-sps.md` |
+| UNS, S2 (2016 edition) | `references/uns-pps.md` |
+| IPB, Unair, Undip, Unpad | not encoded (primary PDF could not be opened) → `indonesia-general.md`, ask for the file |
 | Indonesian campus, nothing encoded | `references/indonesia-general.md`, and ask once for the pedoman. |
-| Outside Indonesia | `references/global.md` |
+| MIT, University of York, ANU, Universiti Malaya (Fac. of Science), UTokyo GSAS PEAK/GPEAK | `references/global-institutions.md` |
+| Outside Indonesia, other institution | `references/global.md` |
 | Nothing identifiable | Ask **one** question: kampus, prodi, jenis dokumen. |
 
 Default for a UAJM student who says nothing further: **`references/uajm-fti.md`**.
@@ -77,7 +86,7 @@ Each has different rules, and getting this wrong invalidates the whole answer.
 | Self-capacity summary | Ringkasan Kapasitas Diri | §D |
 | Undergraduate thesis | Tugas Akhir / Skripsi | §E |
 | Journal manuscript | Naskah Jurnal | §H |
-| Master's / doctoral | Tesis / Disertasi | `indonesia-general.md` §4 |
+| Master's / doctoral | Tesis / Disertasi | encoded campus file (Step 0), else `indonesia-general.md` §3 |
 
 Note the trap: at UAJM the proposal and the Ringkasan Kapasitas Diri look alike and are
 not. They belong to different routes and have different required sections.
@@ -109,11 +118,15 @@ guideline does not cover. Then stop.
 ## Scope, in order of confidence
 
 1. **UAJM FTI** — encoded clause by clause from the primary PDFs. High confidence.
-2. **Indonesian universities generally** — shared conventions, the axes on which
+2. **Seven more Indonesian campuses** — ITB, UI, UGM Faperta, UB PPS, ITS, Unhas, UNS,
+   each encoded from its own primary PDF with source table and clause numbers. High
+   confidence for the edition stated; editions differ in age (2014–2023), so say which.
+3. **Indonesian universities generally** — shared conventions, the axes on which
    campuses actually differ, and what to ask. Medium; always request the local pedoman.
-3. **Worldwide** — APA, MLA, Chicago, IEEE, Vancouver, Harvard, and regional thesis
+4. **Five foreign institutions** (`global-institutions.md`) read from official pages,
+   plus **worldwide** — APA, MLA, Chicago, IEEE, Vancouver, Harvard, and regional thesis
    norms. Medium.
-4. **Any language** — `references/languages.md`, for producing a compliant document in a
+5. **Any language** — `references/languages.md`, for producing a compliant document in a
    language whose academic conventions differ from Indonesian or English.
 
 To add an institution: create `references/<code>.md` in the shape of `uajm-fti.md`,
@@ -125,10 +138,18 @@ work. Cite clause numbers throughout so the next reader can verify.
 | File | Load when |
 |---|---|
 | `references/uajm-fti.md` | UAJM Fakultas Teknologi Informasi — the reference implementation |
+| `references/itb-sps.md` | ITB Sekolah Pascasarjana — tesis magister and disertasi doktor (2016) |
+| `references/ui.md` | Universitas Indonesia — skripsi, tesis, disertasi (SK Rektor 2017) |
+| `references/ugm-faperta.md` | UGM Fakultas Pertanian — proposal, tesis, disertasi (2023) |
+| `references/ub-pps.md` | UB Pascasarjana Multidisiplin — tesis, disertasi (2020) |
+| `references/its-pps.md` | ITS Program Pascasarjana — proposal tesis and tesis (2014) |
+| `references/unhas-sps.md` | Unhas Sekolah Pascasarjana — tesis, disertasi (2021, edisi 5) |
+| `references/uns-pps.md` | UNS Pascasarjana — proposal tesis and tesis (2016, edisi 2) |
+| `references/global-institutions.md` | MIT, York, ANU, UM Faculty of Science, UTokyo GPEAK — rules with URL and section |
 | `references/indonesia-general.md` | Any other Indonesian campus; tesis and disertasi |
 | `references/global.md` | Outside Indonesia; any citation-style question |
 | `references/languages.md` | Document in a language other than Indonesian or English |
 | `references/audit-template.md` | Audit mode — output shape and severity ranking |
 | `examples/audit-kkp-contoh.md` | A worked audit of a fictional KKP draft — reference for audit-mode output |
-| `tests/cases.md` | Ten test questions with expected answers and clauses — run after editing any reference |
-| `sources/` | The primary UAJM PDFs `uajm-fti.md` was encoded from — local only, not in the public repo (the university owns them); if absent, ask the user for the PDF to settle a disputed clause |
+| `tests/cases.md` | Test questions with expected answers and clauses — run after editing any reference |
+| `sources/` | The primary PDFs the reference files were encoded from — local only, not in the public repo (the university owns them); if absent, ask the user for the PDF to settle a disputed clause |
