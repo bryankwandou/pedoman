@@ -1,7 +1,8 @@
 # Kampus Indonesia selain UAJM FTI — dan jenjang tesis/disertasi
 
-**Status kepercayaan: sedang.** Tidak ada satu pun pedoman kampus lain yang sudah
-dibaca dan dikodekan di sini. Yang ada di file ini adalah (1) sumbu-sumbu tempat
+**Status kepercayaan: sedang.** File ini untuk kampus yang **belum** punya file
+sendiri. Sebelas kampus sudah dikodekan dari pedoman primernya (lihat tabel Step 0 di
+`SKILL.md`); untuk mereka, pakai file kampusnya, bukan file ini. Yang ada di file ini adalah (1) sumbu-sumbu tempat
 pedoman antar-kampus benar-benar berbeda, (2) pertanyaan yang harus ditanyakan,
 dan (3) konvensi yang umum tapi **bukan aturan**. Tidak ada di file ini yang boleh
 dikutip sebagai "aturan kampus X".

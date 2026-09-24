@@ -59,24 +59,20 @@ separate pass.
 | Situation | Action |
 |---|---|
 | User attached or named a pedoman | Read it. It governs. Skip to Step 1. |
-| Institution + faculty + program known, file encoded | Load that `references/` file. |
+| UAJM student wanting the whole route (KKP, proposal, skripsi, sidang) | the `atmajaya` skill, if installed; format questions stay here |
+| UAJM Informatika, any document | `references/uajm-fti.md` |
 | ITB, S2/S3 (SPs ITB) | `references/itb-sps.md` |
 | UI, any level (skripsi/tesis/disertasi) | `references/ui.md` |
+| IPB, any level (PPKI edisi 4, 2019) | `references/ipb.md` |
 | UGM, **Fakultas Pertanian** pascasarjana only | `references/ugm-faperta.md` (other UGM faculties: not encoded) |
 | UB, **Pascasarjana Multidisiplin** only | `references/ub-pps.md` |
 | ITS, S2 (2014 edition) | `references/its-pps.md` — ask for the department's current guide |
-| Unhas, S2/S3 | `references/ipb.md` | IPB PPKI edisi 4 — laporan akhir, skripsi, tesis, disertasi (2019; read from Wayback copy of official URL) |
-| `references/unair-sps.md` | Unair Sekolah Pascasarjana — tesis and disertasi (2017; Wayback copy of official URL) |
-| `references/unpad-sps.md` | Unpad Sekolah Pascasarjana — chapter content only (2022) |
-| `references/undip-msi.md` | Undip Magister Sistem Informasi (SPs) — programme only (2022, edisi 9) |
-| `references/undip-magri.md` | Undip Magister Agribisnis (FPP) — programme only (2021) |
-| `references/undip-mmath.md` | Undip Magister Matematika (FSM) — programme only; adapted from ITB 2016 |
-| `references/unhas-sps.md` |
-| UNS, S2 (2016 edition) | `references/uns-pps.md` |
-| IPB, any level (PPKI edisi 4, 2019) | `references/ipb.md` |
 | Unair, S2/S3 (SPs 2017) | `references/unair-sps.md` |
-| Unpad, S2/S3 — chapter content only | `references/unpad-sps.md`; typography is in Unpad's 2014 Panduan Umum (not encoded) → ask for it |
-| Undip — Magister Sistem Informasi / Magister Agribisnis / Magister Matematika only | `references/undip-msi.md` / `undip-magri.md` / `undip-mmath.md` (no school-wide Undip guide exists; any other Undip prodi → ask for its guide) |
+| Unhas, S2/S3 (2021, edisi 5) | `references/unhas-sps.md` |
+| UNS, S2 (2016 edition) | `references/uns-pps.md` |
+| Unpad, tesis S2 | `references/unpad-sps.md` §T (Panduan Umum 2025/2026: typography, gates, structure) |
+| Unpad, disertasi S3 | `references/unpad-sps.md` §1–§6 (chapter content 2022); typography → ask for the guide |
+| Undip — Magister Sistem Informasi / Agribisnis / Matematika only | `references/undip-msi.md` / `undip-magri.md` / `undip-mmath.md` (no school-wide Undip guide; other prodi → ask for its guide) |
 | Indonesian campus, nothing encoded | `references/indonesia-general.md`, and ask once for the pedoman. |
 | MIT, University of York, ANU, Universiti Malaya (Fac. of Science), UTokyo GSAS PEAK/GPEAK | `references/global-institutions.md` |
 | Outside Indonesia, other institution | `references/global.md` |
@@ -127,7 +123,7 @@ guideline does not cover. Then stop.
 ## Scope, in order of confidence
 
 1. **UAJM FTI** — encoded clause by clause from the primary PDFs. High confidence.
-2. **Ten more Indonesian campuses** — ITB, UI, IPB, UGM Faperta, UB PPS, ITS, Unair, Unhas, UNS, Unpad (content only),
+2. **Eleven more Indonesian campuses** — ITB, UI, IPB, UGM Faperta, UB PPS, ITS, Unair, Unhas, UNS, Unpad (tesis full; disertasi content only), Undip (three programmes),
    each encoded from its own primary PDF with source table and clause numbers. High
    confidence for the edition stated; editions differ in age (2014–2023), so say which.
 3. **Indonesian universities generally** — shared conventions, the axes on which
@@ -154,6 +150,10 @@ work. Cite clause numbers throughout so the next reader can verify.
 | `references/its-pps.md` | ITS Program Pascasarjana — proposal tesis and tesis (2014) |
 | `references/unhas-sps.md` | Unhas Sekolah Pascasarjana — tesis, disertasi (2021, edisi 5) |
 | `references/uns-pps.md` | UNS Pascasarjana — proposal tesis and tesis (2016, edisi 2) |
+| `references/ipb.md` | IPB PPKI edisi 4 — laporan akhir, skripsi, tesis, disertasi (2019) |
+| `references/unair-sps.md` | Unair Sekolah Pascasarjana — tesis and disertasi (2017) |
+| `references/unpad-sps.md` | Unpad — tesis typography and gates (2025/2026, §T); tesis/disertasi chapter content (2022) |
+| `references/undip-msi.md`, `undip-magri.md`, `undip-mmath.md` | Undip — three programme guides only |
 | `references/global-institutions.md` | MIT, York, ANU, UM Faculty of Science, UTokyo GPEAK — rules with URL and section |
 | `references/indonesia-general.md` | Any other Indonesian campus; tesis and disertasi |
 | `references/global.md` | Outside Indonesia; any citation-style question |
