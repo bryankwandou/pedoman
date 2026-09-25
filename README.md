@@ -29,7 +29,7 @@ submit is wasted work.
    (Pascasarjana Multidisiplin), ITS, Unair, Unhas (pascasarjana), UNS, Unpad (tesis),
    Undip (three master's programmes), and from wave 1 (25 Sept 2026): Unhas S1, UNM, UMI
    (FIKOM), UIN Alauddin, Unismuh (FKIP), PNUP (D-4), UGM (FIB), BINUS (Management) —
-   22 Indonesian institutions including UAJM, most
+   37 Indonesian institutions including UAJM (wave 2 added 15 more and S1 files for 8 already listed), most
    at one faculty or level only, as each file states. Five foreign institutions in
    `references/global-institutions.md`.
 3. **Every other university** — not encoded. The skill gives the common axes, asks for
