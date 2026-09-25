@@ -27,7 +27,9 @@ submit is wasted work.
 2. **Encoded from primary guidelines (status 25 September 2026):** UAJY Informatika,
    Atma Jaya Jakarta FEB, ITB, UI, IPB, UGM (Fak. Pertanian pascasarjana), UB
    (Pascasarjana Multidisiplin), ITS, Unair, Unhas (pascasarjana), UNS, Unpad (tesis),
-   Undip (three master's programmes) — 14 Indonesian institutions including UAJM, most
+   Undip (three master's programmes), and from wave 1 (25 Sept 2026): Unhas S1, UNM, UMI
+   (FIKOM), UIN Alauddin, Unismuh (FKIP), PNUP (D-4), UGM (FIB), BINUS (Management) —
+   22 Indonesian institutions including UAJM, most
    at one faculty or level only, as each file states. Five foreign institutions in
    `references/global-institutions.md`.
 3. **Every other university** — not encoded. The skill gives the common axes, asks for
